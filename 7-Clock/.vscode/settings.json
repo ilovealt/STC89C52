@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "editor.fontSize": 20,
+    "files.readonlyFromPermissions": true,
+    "files.readonlyInclude": {
+        "Users/thor/.platformio/packages/toolchain-sdcc/share/sdcc/include/**/*.h": true,
+    },
+    "files.associations": {
+        "reg51.h": "c",
+        "8052.h": "c",
+        "8051.h": "c",
+        "lcd1602.h": "c",
+        "delay.h": "c",
+        "time0.h": "c",
+        "stc89.h": "c"
+    }
+}
