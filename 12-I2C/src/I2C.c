@@ -31,14 +31,14 @@ void I2C_SendByte(unsigned char dat)
 
 unsigned char I2C_ReadByte(void)
 {
-    unsigned char i, dat = 0;
+    unsigned char i, dat = 0x00;
     I2C_SDA = 1; // 释放总线
     for (i = 0; i < 8; i++)
     {
         I2C_SCL = 1;
         if (I2C_SDA)
         {
-            dat |= 0x80 >> i;
+            dat |= (0x80 >> i);
         }
         I2C_SCL = 0;
     }
