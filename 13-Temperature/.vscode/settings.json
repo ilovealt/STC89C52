@@ -7,13 +7,10 @@
     },
     "files.readonlyExclude": {},
     "files.associations": {
-        "reg51.h": "c",
         "8052.h": "c",
-        "8051.h": "c",
         "lcd1602.h": "c",
         "delay.h": "c",
         "time0.h": "c",
-        "stc89.h": "c",
-        "at24c02.h": "c"
+        "8051.h": "c"
     }
 }
