@@ -15,32 +15,4 @@ void Delayms(unsigned int ms);
  */
 void Delay1ms(void);
 
-/**
- * @brief  延时函数，11.0592MHz调用可延时10us
- * @param  无
- * @retval 无
- */
-void Delay10us(void);
-
-/**
- * @brief  延时函数，11.0592MHz调用可延时15us
- * @param  无
- * @retval 无
- */
-void Delay15us(void);
-
-/**
- * @brief  延时函数，11.0592MHz调用可延时70us
- * @param  无
- * @retval 无
- */
-void Delay70us(void);
-
-/**
- * @brief  延时函数，11.0592MHz调用可延时500us
- * @param  无
- * @retval 无
- */
-void Delay500us(void);
-
 #endif // __DELAY_H__
