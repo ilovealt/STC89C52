@@ -15,7 +15,7 @@ void Int0_Init(void)
 }
 
 /*外部中断0中断函数模板
-void Int0_Routine(void) interrupt 0
+void Int0_Routine(void) __interrupt(0) __using(0)
 {
 
 }
